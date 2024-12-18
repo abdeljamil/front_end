@@ -9,4 +9,4 @@ RUN yarn install --production
 
 CMD ["node","src/index.js"]
 
-EXPOSE 4000
+EXPOSE 3000
