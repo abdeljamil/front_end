@@ -52,7 +52,7 @@ export const Footer = () => {
             </a>
             {`Remote monkey SASU`}
           </Typography>
-          <div className=""></div>
+          <div className=""></div>   
         </div>
       </div>
     </div>
