@@ -1,6 +1,14 @@
-import { Seo } from "@/ui/components/seo";
-import { Button } from "@/ui/design-system/typography/button/button";
+import { Container } from "@/ui/components/container/container";
+import { Footer } from "@/ui/components/navigation/footer";
+import { Navigation } from "@/ui/components/navigation/navigation";
+import { Seo } from "@/ui/components/seo/seo";
+import { Avatar } from "@/ui/design-system/avatar/avatar";
+import { Button } from "@/ui/design-system/button/button";
+import { Logo } from "@/ui/design-system/logo/logo";
+import { Spinner } from "@/ui/design-system/spinner/spinner";
 import { Typography } from "@/ui/design-system/typography/typography";
+
+import { RiGovernmentFill, RiUser6Fill, RiUser6Line } from "react-icons/ri";
 
 
 
@@ -8,35 +16,11 @@ import { Typography } from "@/ui/design-system/typography/typography";
 
 export default function Home() {
   return (
-   <>
-   <Button />
-    {/* <div className="space-y-4">
-    <Seo title="Coders Monkeys" descripion=" Description...." />    
-     <Typography theme="primary" variant="body-lg" Component="h1">
-       coders Monkers
-     </Typography>
-     <Typography theme="secondary" variant="h1" Component="div">
-       coders Monkers
-     </Typography>
-     <Typography variant="lead" Component="div">
-       coders Monkers
-     </Typography>
-     <Typography variant="body-sm" Component="div">
-       coders Monkers
-     </Typography>
-     <Typography variant="body-lg" Component="div">
-       coders Monkers
-     </Typography>
-     <Typography variant="caption4" Component="div">
-       coders Monkers
-     </Typography>
-     <Typography variant="caption4" weigth="medium" Component="div">
-       coders Monkers
-     </Typography>
-    </div> */}
-  
-     {/* <h1> bonjour </h1> */}
 
-   </>
+    <>
+      <Seo title="Coders Monkeys" descripion=" Description...." />
+      <Navigation />
+      <Footer />
+    </>
   );
 }
